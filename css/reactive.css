@@ -16,3 +16,13 @@
     }
 
 }
+
+
+@media (max-width : 500px)
+{
+    .slide1
+    {
+        display:none;
+    }
+    
+}
