@@ -1,0 +1,18 @@
+@charset "utf-8";
+
+@media (max-width: 1540px)
+{
+    #sec3
+    {
+        margin-top:500px;
+    }
+    #sec3 .banner_box img 
+    {
+        width: 280px;
+    }
+    .banner_box
+    {
+        width:calc((280px * 2) + 20px) !important;
+    }
+
+}
