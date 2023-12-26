@@ -69,7 +69,7 @@ slide1.controller.control = slide2;
 $(".zep_btn, .web_btn").hide();
 
 $(".zep_area").mouseover(function(){
-    $(this).find('.zep_btn').fadeIn();
+    $(this).find('.zep_btn').stop().fadeIn();
 });
 $(".zep_area").mouseleave(function(){
     $(this).find('.zep_btn').stop().fadeOut();
