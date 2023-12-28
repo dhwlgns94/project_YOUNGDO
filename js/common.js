@@ -12,7 +12,8 @@ $(".ham_area").click(function(){
 
 });
 
-$(".sitemap_close").click(function(){
+
+$(".sitemap_close, .sitemap_bg").click(function(){
     $(".sitemap").addClass("close");
     $(".sitemap").removeClass("on");
 });
