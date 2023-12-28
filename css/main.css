@@ -17,16 +17,21 @@
     position:relative;
 }
 
- .sec_mv_button
- {
+.sec_mv_button
+{
      position:absolute;
      right:0;
      top:-60px;
      cursor:pointer;
      transition:all 0.1s;
- }
+}
+.sec_mv_button img
+{
+    width:80%;
+}
 
- .sec_mv_button:hover
+
+.sec_mv_button:hover
  {
     opacity:0.8;
  }
